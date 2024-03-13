@@ -1,0 +1,16 @@
+body {
+  background-color: azure;
+}
+
+#translateTable td,
+#translateTable th {
+  text-align: center;
+}
+
+#translateTable td.success {
+  background-color: green;
+}
+
+#translateTable td.failed {
+  background-color: red;
+}
