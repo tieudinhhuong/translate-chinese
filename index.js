@@ -94,8 +94,8 @@ function upload() {
     data.splice(0, data.length);
     dataCount = dataBefore.length;
     populateTable(dataBefore);
-    //startWorkers();
-    //checkWork();
+    startWorkers();
+    checkWork();
   };
 
   reader.onerror = function (ex) {
